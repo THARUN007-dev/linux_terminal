@@ -1,0 +1,7 @@
+sudo systemctl status ssh
+sudo systemctl start ssh
+sudo systemctl stop ssh
+sudo systemctl restart ssh
+sudo apt update
+sudo apt install openssh-server
+ssh tharun@192.23.3.4 -p 22  //username@ipaddr -p port ,bridge network
